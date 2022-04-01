@@ -8942,6 +8942,9 @@ textarea.form-control-lg {
 .tag:hover {
   color: #5a189a !important; }
 
+.none {
+  display: none !important; }
+
 body {
   font-family: "Inter", sans-serif; }
 
@@ -9140,6 +9143,9 @@ footer {
 .blog .filter-tag .tag {
   background-color: #f5f5f5 !important;
   color: #242424; }
+
+.blog-post-detail .media-wrapper {
+  max-height: 500px; }
 
 @media (max-width: 991.98px) {
   .blog-post-detail .social {
@@ -9391,3 +9397,12 @@ footer {
   background-color: #f5f5f5;
   border-radius: 8px;
   border: 0; }
+
+#search {
+  position: relative;
+  z-index: 5; }
+
+.searchbar {
+  left: 0;
+  transform: translate(-85%, -15%);
+  padding-right: 2rem; }

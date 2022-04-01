@@ -19,3 +19,14 @@
     border: 0;
   }
 }
+
+#search {
+  position: relative;
+  z-index: 5;
+}
+
+.searchbar {
+  left: 0;
+  transform: translate(-85%, -15%);
+  padding-right: 2rem;
+}

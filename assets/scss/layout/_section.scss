@@ -92,6 +92,9 @@
 }
 
 .blog-post-detail {
+  .media-wrapper {
+    max-height: 500px;
+  }
   @include media-breakpoint-down(lg) {
     .social {
       flex-direction: row !important;

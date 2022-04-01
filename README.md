@@ -1,2 +1,0 @@
-# TheTechyInfo
- blog

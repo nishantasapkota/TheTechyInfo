@@ -78,8 +78,9 @@
             </picture>
           </div>
           <div class="d-flex align-items-center">
-            <button class="btn btn-icon-only" type="button" id="search">
-              <i class="icon-search"></i>
+            <button class="btn btn-icon-only position-relative" type="button">
+              <input type="text" class="none searchbar position-absolute" />
+              <i class="icon-search" id="search"></i>
             </button>
           </div>
         </div>
@@ -161,7 +162,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-xl-4 col-sm-6 card-01 mt-xs-5 mt-lg-0">
+            <div class="col-xl-4 col-sm-6 card-01 mt-xs-5 mt-xl-0">
               <div class="media-wrapper">
                 <img
                   class="card-img-top"
@@ -312,7 +313,7 @@
         <div class="d-flex justify-content-between align-items-center">
           <h2 class="text-primary">Featured</h2>
           <a
-            href="./blog-post.html"
+            href="./blog.html"
             class="nav-link text-primary d-flex align-items-center"
           >
             <i class="icon-plus-fill text-utility-regular-24 mx-1"></i> View All
@@ -322,7 +323,7 @@
           <div class="stack-card">
             <div class="stack-card-body-wrapper">
               <h2>
-                <a href="./blog-post.html" class="stack-card-link">Trending</a>
+                <a href="./blog.html" class="stack-card-link">Trending</a>
               </h2>
               <p class="stack-card-body text-utility-regular-14">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
@@ -337,7 +338,7 @@
           <div class="stack-card">
             <div class="stack-card-body-wrapper">
               <h2>
-                <a href="./blog-post.html" class="stack-card-link">Trending</a>
+                <a href="./blog.html" class="stack-card-link">Trending</a>
               </h2>
               <p class="stack-card-body text-utility-regular-14">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
@@ -352,7 +353,7 @@
           <div class="stack-card">
             <div class="stack-card-body-wrapper">
               <h2>
-                <a href="./blog-post.html" class="stack-card-link">Trending</a>
+                <a href="./blog.html" class="stack-card-link">Trending</a>
               </h2>
               <p class="stack-card-body text-utility-regular-14">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
@@ -367,7 +368,7 @@
           <div class="stack-card">
             <div class="stack-card-body-wrapper">
               <h2>
-                <a href="./blog-post.html" class="stack-card-link">Trending</a>
+                <a href="./blog.html" class="stack-card-link">Trending</a>
               </h2>
               <p class="stack-card-body text-utility-regular-14">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
@@ -501,10 +502,14 @@
       </div>
       <div class="container copyright mt-5">
         <div class="row">
-          <p class="text-utility-regular-16 text-black-600 pb-4">
-            © 2022 All rights reserved TheTechyInfo
-          </p>
-          <div class="social">
+          <div class="col-md-6">
+            <p class="text-utility-regular-16 text-black-600 pb-4">
+              © 2022 All rights reserved TheTechyInfo
+            </p>
+          </div>
+          <div
+            class="social offset-md-4 col-md-2 mt-sm-2 mt-md-0 justify-self-end"
+          >
             <i class="icon-facebook"></i>
             <i class="icon-instagram"></i>
             <i class="icon-twitter"></i>
@@ -517,5 +522,12 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script>
+      let icon = document.querySelector("#search");
+      let input = document.querySelector(".searchbar");
+      icon.addEventListener("click", () => {
+        input.classList.toggle("none");
+      });
+    </script>
   </body>
 </html>
