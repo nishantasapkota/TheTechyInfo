@@ -1,0 +1,25 @@
+footer {
+  padding-top: 6rem;
+  margin-top: 5rem;
+
+  .footer {
+    &-brand {
+      .media-wrapper {
+        width: 300px;
+      }
+    }
+    &-content {
+      width: 40%;
+      gap: 2rem;
+      .nav-link {
+        color: $black;
+      }
+    }
+  }
+  .nav-link {
+    &:hover {
+      color: $primary;
+      font-weight: 600;
+    }
+  }
+}

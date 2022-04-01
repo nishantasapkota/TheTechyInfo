@@ -1,0 +1,21 @@
+.search-bar {
+  input {
+    border-radius: 0.5rem;
+  }
+  button {
+    top: 50%;
+    right: 0.25rem;
+    transform: translateY(-50%);
+  }
+}
+
+.search {
+  &-input {
+    width: 100%;
+    padding: 0.25rem 1rem;
+    background-color: $grey-100;
+    border-radius: 8px;
+
+    border: 0;
+  }
+}

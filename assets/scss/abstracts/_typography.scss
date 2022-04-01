@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lora:wght@400;500&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.blog-body-text {
+  font-family: "Lora", serif;
+}
+
+$display-font-sizes: (
+  1: 2rem,
+  2: 1.5rem,
+  3: 1.375rem,
+  4: 1.25rem,
+  5: 1.125rem,
+  6: 1rem,
+);
+
+.heading-1 {
+  color: $primary;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.heading-2 {
+  color: $primary;
+  font-weight: 600;
+  font-size: 1.375rem;
+}
+
+.text-regular-16 {
+  @include typography(400, 1rem, 150%);
+  font-family: "Lora", serif;
+}
+.text-utility-regular-16 {
+  @include typography(400, 1rem, 120%);
+}
+.text-utility-regular-14 {
+  @include typography(400, 0.875rem, 120%);
+}
+
+.text-utility-regular-24 {
+  @include typography(400, 2rem, 120%);
+}
+.text-medium-24 {
+  @include typography(500, 1.5rem, 120%);
+}
+.text-medium-16 {
+  @include typography(500, 1rem, 120%);
+}
+.text-medium-20 {
+  @include typography(500, 1.25rem, 120%);
+}
+.text-bold-24 {
+  @include typography(700, 1.5rem, 120%);
+}
+.text-semibold-24 {
+  @include typography(600, 1.5rem, 120%);
+}
+.text-semibold-22 {
+  @include typography(600, 1.375rem, 120%);
+}
+.text-bold-32 {
+  @include typography(700, 2rem, 150%);
+}
+
+.semi-bold {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.regular {
+  font-weight: 400;
+}

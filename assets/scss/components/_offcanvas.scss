@@ -1,0 +1,31 @@
+.offcanvas {
+  padding: 0 1rem;
+  &-start {
+    width: 300px;
+  }
+  &-header {
+    padding: 1rem;
+    padding-top: 1rem;
+  }
+  &-body {
+    padding: 0.5rem;
+  }
+  .nav-item {
+    padding: 0.5rem;
+    border-bottom: 1px solid rgba($color: $grey-200, $alpha: 0.3);
+    .nav-link {
+      color: $black-600;
+      &:hover {
+        color: $primary !important;
+        font-weight: 600;
+      }
+      &:focus {
+        color: $primary !important;
+        font-weight: 600;
+      }
+    }
+  }
+  .nav-item:first-child {
+    padding-top: 0;
+  }
+}

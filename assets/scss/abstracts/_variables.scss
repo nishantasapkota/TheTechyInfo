@@ -1,0 +1,97 @@
+//*colors
+
+//primary color
+$primary: #5a189a;
+$primary-600: #5a189a;
+$primary-500: #7521c7;
+$primary-400: #7f4bba;
+$primary-300: #efebf5;
+$primary-200: #faf5ff;
+$primary-100: #faf8fd;
+
+//base color
+$black-600: #121212;
+$black-500: #242424;
+$grey-400: #434242;
+$grey-300: #4d4b4b;
+$grey-200: #989898;
+$grey-100: #f5f5f5;
+
+//default
+$black: #000000;
+$white: #ffffff;
+
+//information color
+
+//orange
+$orange-100: #fff3ef;
+$orange-200: #ffe5dd;
+$orange-300: #ffcbbb;
+$orange-400: #ffb299;
+$orange-500: #ff9877;
+$orange-600: #ff7e55;
+
+//red
+$red-100: #feedeb;
+$red-200: #fdd9d7;
+$red-300: #fbb4af;
+$red-400: #f88e86;
+$red-500: #f6695e;
+$red-600: #f44336;
+
+//green
+$green-100: #eef8ee;
+$green-200: #dbefdc;
+$green-300: #b7dfb9;
+$green-400: #94cf96;
+$green-500: #70bf73;
+$green-600: #4caf50;
+
+//blue
+$blue-100: #d3eafd;
+$blue-200: #a6d5fa;
+$blue-300: #7ac0f8;
+$blue-400: #4dabf5;
+$blue-500: #2196f3;
+$blue-600: #1971b6;
+
+//theme colors
+
+$theme-colors: (
+  "white": $white,
+  "black": $black,
+  "primary": $primary,
+  "primary-500": $primary-500,
+  "primary-400": $primary-400,
+  "primary-300": $primary-300,
+  "primary-200": $primary-200,
+  "primary-100": $primary-100,
+  "black-600": $black-600,
+  "black-500": $black-500,
+  "grey-400": $grey-400,
+  "grey-300": $grey-300,
+  "grey-200": $grey-200,
+  "grey-100": $grey-100,
+);
+
+//*typography
+$utility-regular-14: 0.875rem;
+$utility-regular-16: 1rem;
+
+//*grid
+$grid-breakpoints: (
+  xxs: 0,
+  xs: 375px,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+);
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1128px,
+  xxl: 1128px,
+);

@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/style.css" />
+  </head>
+  <body>
+    <header class="container-fluid bg-white">
+      <nav class="">
+        <div class="header navbar-nav flex-row justify-content-between">
+          <div class="d-flex align-items-center">
+            <button
+              class="navbar-toggler no-focus"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasExample"
+              aria-controls="offcanvasExample"
+              id="menu"
+            >
+              <span class="icon-menu"></span>
+            </button>
+            <label for="menu"><h6>Menu</h6></label>
+          </div>
+          <div
+            class="offcanvas offcanvas-start"
+            tabindex="-1"
+            id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel"
+          >
+            <div class="offcanvas-header">
+              <h5
+                class="offcanvas-title text-primary text-bold"
+                id="offcanvasExampleLabel"
+              >
+                Menu
+              </h5>
+              <button
+                type="button"
+                class="btn btn-icon-only"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              >
+                <i class="icon-cross"></i>
+              </button>
+            </div>
+            <div class="offcanvas-body">
+              <div>
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a href="index.html" class="nav-link text-black-600"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a href="blog.html" class="nav-link text-black-600">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-black-600">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="navbar-brand">
+            <picture>
+              <source
+                media="(max-width:500px)"
+                srcset="../assets/image/logo-icon.png"
+              />
+              <img src="../assets/image/logo-primary.svg" alt="" />
+            </picture>
+          </div>
+          <div class="d-flex align-items-center">
+            <button class="navbar-toggler" type="button" id="menu">
+              <span class="icon-search"></span>
+            </button>
+            <input type="text" class="search none" />
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="blog-post-detail my-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <h6 class="text-regular-utility-16 text-grey-200">01/02/2022s</h6>
+              <h1 class="text-bold-32">Lorem ipsum dolor sit amet.</h1>
+              <h5 class="text-medium-16 mb-2">Category</h5>
+              <div class="tags d-flex gap-8 mb-3">
+                <p class="tag">Programming</p>
+                <p class="tag">Apple</p>
+                <p class="tag">Google</p>
+                <p class="tag">Review</p>
+                <p class="tag">AI</p>
+              </div>
+              <div class="media-wrapper br-8">
+                <img src="../assets/image/card-image-1.png" />
+              </div>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-lg-1 mb-3">
+              <h4 class="text-medium-20 mb-lg-2">Share</h4>
+              <div class="social d-flex flex-column gap-16">
+                <i class="icon-facebook"></i>
+                <i class="icon-instagram"></i>
+                <i class="icon-twitter"></i>
+                <i class="icon-messenger"></i>
+              </div>
+            </div>
+            <div class="col-lg-7">
+              <h4 class="mb-2 text-medium-20">heading</h4>
+              <p class="mb-3 text-regular-16">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corporis molestias hic, magni modi blanditiis nihil dolorem
+                aspernatur vero pariatur, inventore error laborum veritatis
+                libero doloribus perferendis eos! Ea, magni accusantium.
+              </p>
+              <h4 class="mb-2 text-medium-20">heading</h4>
+              <p class="mb-3 text-regular-16">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corporis molestias hic, magni modi blanditiis nihil dolorem
+                aspernatur vero pariatur, inventore error laborum veritatis
+                libero doloribus perferendis eos! Ea, magni accusantium.
+              </p>
+              <h4 class="mb-2 text-medium-20">heading</h4>
+              <p class="mb-3 text-regular-16">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corporis molestias hic, magni modi blanditiis nihil dolorem
+                aspernatur vero pariatur, inventore error laborum veritatis
+                libero doloribus perferendis eos! Ea, magni accusantium.
+              </p>
+              <h4 class="mb-2 text-medium-20">heading</h4>
+              <p class="mb-3 text-regular-16">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corporis molestias hic, magni modi blanditiis nihil dolorem
+                aspernatur vero pariatur, inventore error laborum veritatis
+                libero doloribus perferendis eos! Ea, magni accusantium.
+              </p>
+
+              <div class="div mt-4 d-flex gap-16 align-items-center">
+                <div class="d-flex gap-8 align-items-center">
+                  <button
+                    class="btn btn-icon-only"
+                    type="button"
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#demo"
+                  >
+                    <i class="icon-heart"></i>
+                  </button>
+                  <div class="offcanvas offcanvas-start" id="demo">
+                    <div class="offcanvas-header">
+                      <h1 class="offcanvas-title">) Comments</h1>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="offcanvas"
+                      ></button>
+                    </div>
+                    <div class="offcanvas-body">comments appear here</div>
+                  </div>
+
+                  <p>17</p>
+                </div>
+                <div class="d-flex gap-8">
+                  <button
+                    class="btn btn-icon-only"
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#comment"
+                    aria-controls="comment"
+                  >
+                    <i class="icon-comment"></i>
+                  </button>
+                  <!-- <button
+                    class="btn btn-primary"
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#comment"
+                    aria-controls="comment"
+                  >
+                    Enable both scrolling & backdrop
+                  </button> -->
+                  <div
+                    class="offcanvas offcanvas-end"
+                    data-bs-scroll="true"
+                    tabindex="-1"
+                    id="comment"
+                    aria-labelledby="comment"
+                  >
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="comment">
+                        Backdroped with scrolling
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close text-reset"
+                        data-bs-dismiss="offcanvas"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="offcanvas-body"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 sidebar-none position-sticky">
+              <ul class="navbar-nav heading-list">
+                <li class="nav-item">
+                  <a href="#" class="nav-link">heading</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">heading</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">heading</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">heading</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container most-recent-posts mt-64">
+        <div class="d-flex justify-content-between align-items-center">
+          <h2 class="text-primary">Most recent posts</h2>
+          <a
+            href="./blog-post.html"
+            class="nav-link text-primary d-flex align-items-center"
+          >
+            <i class="icon-plus-fill text-utility-regular-24 mx-1"></i> View All
+          </a>
+        </div>
+        <div class="container p-0 mt-48">
+          <div class="row p-0">
+            <div class="col-xl-6 card-02 d-flex gap-32">
+              <div class="media-wrapper">
+                <img class="card-img-left" src="../assets/image/stack-3.png" />
+              </div>
+              <div class="card-body">
+                <h4>
+                  <a href="./blog-post.html">
+                    Celebrating the 2020 Material Design Award winners
+                  </a>
+                </h4>
+                <p class="text-regular-16">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl
+                  aliquet luctus eget non ultrices auctor. Eget justo, nulla
+                  turpis faucibus...
+                </p>
+              </div>
+            </div>
+            <div class="col-xl-6 card-02 d-flex gap-32">
+              <div class="media-wrapper">
+                <img class="card-img-left" src="../assets/image/stack-1.png" />
+              </div>
+              <div class="card-body">
+                <h4>
+                  <a href="./blog-post.html">
+                    Celebrating the 2020 Material Design Award winners
+                  </a>
+                </h4>
+                <p class="text-regular-16">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl
+                  aliquet luctus eget non ultrices auctor. Eget justo, nulla
+                  turpis faucibus...
+                </p>
+              </div>
+            </div>
+            <div class="col-xl-6 card-02 d-flex gap-32">
+              <div class="media-wrapper">
+                <img class="card-img-left" src="../assets/image/stack-2.png" />
+              </div>
+              <div class="card-body">
+                <h4>
+                  <a href="./blog-post.html">
+                    Celebrating the 2020 Material Design Award winners
+                  </a>
+                </h4>
+                <p class="text-regular-16">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl
+                  aliquet luctus eget non ultrices auctor. Eget justo, nulla
+                  turpis faucibus...
+                </p>
+              </div>
+            </div>
+            <div class="col-xl-6 card-02 d-flex gap-32">
+              <div class="media-wrapper">
+                <img
+                  class="card-img-left"
+                  src="../assets/image/blog-img-3.png"
+                />
+              </div>
+              <div class="card-body">
+                <h4>
+                  <a href="./blog-post.html">
+                    Celebrating the 2020 Material Design Award winners
+                  </a>
+                </h4>
+                <p class="text-regular-16">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl
+                  aliquet luctus eget non ultrices auctor. Eget justo, nulla
+                  turpis faucibus...
+                </p>
+              </div>
+            </div>
+            <div class="col-xl-6 card-02 d-flex gap-32">
+              <div class="media-wrapper">
+                <img
+                  class="card-img-left"
+                  src="../assets/image/blog-img-1.png"
+                />
+              </div>
+              <div class="card-body">
+                <h4>
+                  <a href="./blog-post.html">
+                    Celebrating the 2020 Material Design Award winners
+                  </a>
+                </h4>
+                <p class="text-regular-16">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl
+                  aliquet luctus eget non ultrices auctor. Eget justo, nulla
+                  turpis faucibus...
+                </p>
+              </div>
+            </div>
+            <div class="col-xl-6 card-02 d-flex gap-32">
+              <div class="media-wrapper">
+                <img
+                  class="card-img-left"
+                  src="../assets/image/blog-img-2.png"
+                />
+              </div>
+              <div class="card-body">
+                <h4>
+                  <a href="./blog-post.html">
+                    Celebrating the 2020 Material Design Award winners
+                  </a>
+                </h4>
+                <p class="text-regular-16">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl
+                  aliquet luctus eget non ultrices auctor. Eget justo, nulla
+                  turpis faucibus...
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-primary-200">
+      <div class="footer container">
+        <div class="row">
+          <div class="footer-brand col-xl-4 col-lg-16 col-md-16">
+            <div class="navbar-brand media-wrapper">
+              <img src="../assets/image/logo-primary.svg" alt="" />
+            </div>
+            <p class="contact mt-4 text-black-600">
+              Contact : techyinfo@gmail.com, +977 9123456789
+            </p>
+          </div>
+          <div class="footer-links col-xl-3 col-lg-4 col-md-4 mt-xs-5 mt-xl-0">
+            <div class="Explore">
+              <h2 class="text-medium-24 text-primary">Explore</h2>
+              <ul class="navbar-nav mt-24">
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-black-600">Featured</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-black-600">Trending</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-black-600">Events</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-black-600">Reviews</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-black-600">Educational</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-links col-xl-3 col-lg-4 col-md-4 mt-xs-5 mt-xl-0">
+            <div class="Company">
+              <h2 class="text-medium-24 text-primary">Company</h2>
+              <ul class="navbar-nav mt-24">
+                <li class="nSav-item">
+                  <a href="#" class="nav-link text-black-600 text-black-600"
+                    >License</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-black-600 text-black-600"
+                    >Terms And Conditions</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-black-600 text-black-600"
+                    >Privacy policy</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-black-600 text-black-600"
+                    >FAQ</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-links col-xl-2 col-lg-4 col-md-4 mt-xs-5 mt-xl-0">
+            <div class="discover">
+              <h2 class="text-medium-24 text-primary">Discover</h2>
+              <ul class="navbar-nav mt-24">
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-black-600">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-black-600">Blog</a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="#" class="nav-link text-black-600">Resources</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container copyright mt-5">
+        <div class="row">
+          <p class="text-utility-regular-16 text-black-600 pb-4">
+            © 2022 All rights reserved TheTechyInfo
+          </p>
+          <div class="social">
+            <i class="icon-facebook"></i>
+            <i class="icon-instagram"></i>
+            <i class="icon-twitter"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

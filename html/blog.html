@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link rel="stylesheet" href="../assets/css/style.css" />
+  </head>
+  <body>
+    <header class="container-fluid bg-white">
+      <nav class="">
+        <div class="header navbar-nav flex-row justify-content-between">
+          <div class="d-flex align-items-center">
+            <button
+              class="navbar-toggler no-focus"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasExample"
+              aria-controls="offcanvasExample"
+              id="menu"
+            >
+              <span class="icon-menu"></span>
+            </button>
+            <label for="menu"><h6>Menu</h6></label>
+          </div>
+          <div
+            class="offcanvas offcanvas-start"
+            tabindex="-1"
+            id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel"
+          >
+            <div class="offcanvas-header">
+              <h5
+                class="offcanvas-title text-primary text-bold"
+                id="offcanvasExampleLabel"
+              >
+                Menu
+              </h5>
+              <button
+                type="button"
+                class="btn btn-icon-only"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              >
+                <i class="icon-cross"></i>
+              </button>
+            </div>
+            <div class="offcanvas-body">
+              <div>
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a href="./index.html" class="nav-link text-black-600"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a href="./blog.html" class="nav-link text-black-600"
+                      >Blog</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-black-600">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="navbar-brand">
+            <picture>
+              <source
+                media="(max-width:500px)"
+                srcset="../assets/image/logo-icon.png"
+              />
+              <img src="../assets/image/logo-primary.svg" alt="" />
+            </picture>
+          </div>
+          <div class="d-flex align-items-center">
+            <button class="navbar-toggler" type="button" id="menu">
+              <span class="icon-search"></span>
+            </button>
+            <input type="text" class="search none" />
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="bg-primary-300">
+        <div class="container-fluid sponsored mb-5 position-relative">
+          <div class="row align-items-center py-lg-0">
+            <div class="col-xl-6 col-md-6 p-md-0 pe-md-4">
+              <div class="media-wrapper">
+                <img src="../assets/image/blog-img-1.png" alt="" />
+              </div>
+            </div>
+            <div class="col-xl-4 col-xxl-4 col-md-6 d-flex flex-column pt-xs-3">
+              <div class="align-self-center justify-self-center">
+                <p class="text-utility-regular-14 text-grey-200">Sponsored</p>
+                <h2 class="text-primary mt-16 link-overlay">
+                  <a href="./blog-post.html">I/O 2021: Our Definitive Guide</a>
+                </h2>
+                <p class="text-grey-300 .text-regular-16 mt-16">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Ipsum illo natus, tempore fuga perferendis velit, debitis
+                  autem quas maiores placeat earum officia vero quis corrupti.
+                  Voluptatem aspernatur incidunt eos minus ullam quae! Maxime
+                  sint aliquam qui, quos similique perspiciatis dolorem esse quo
+                  reprehenderit perferendis impedit nostrum quasi reiciendis
+                  ipsa minus.
+                </p>
+                <a
+                  href="./blog-post.html"
+                  class="text-primary nav-link p-0 mt-16"
+                  >Read more</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="blog container">
+        <div class="row position-relative">
+          <div class="col-lg-7">
+            <div class="col-lg-12">
+              <div class="d-flex">
+                <h2 class="me-3 text-primary">Blog</h2>
+                <h2 class="me-3 text-primary">/</h2>
+                <h2 class="text-primary">All</h2>
+              </div>
+            </div>
+            <div class="col-lg-12 mt-4">
+              <div class="tags d-flex gap-16">
+                <p class="tag">Programming</p>
+                <p class="tag">Apple</p>
+                <p class="tag">Google</p>
+                <p class="tag">Review</p>
+                <p class="tag">AI</p>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="row p-0 mt-5 blog-post-container">
+                <div class="col-lg-3 col-md-3">
+                  <div class="media-wrapper">
+                    <img src="../assets/image/blog-img-2.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-lg-9 col-md-9 mt-xs-3 mt-md-0">
+                  <h2 class="text-semibold-22 link-overlay">
+                    <a href="./blog-post.html">
+                      Celebrating the 2020 Material Design A... Celebrating the
+                      2020 Material Design A... Celebrating the 2020 Material
+                      Design A...
+                    </a>
+                  </h2>
+                  <p class="text-regular-16 my-2">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Magna auctor sit leo a semper in vel. Tellus tincidunt
+                    tristique semper odio nunc mauris, aenean dictumst. Viverra
+                    sodales non lorem...
+                  </p>
+                  <div class="d-flex gap-16 mb-5 mt-3">
+                    <p class="tag">Programming</p>
+                    <p class="tag">Apple</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row p-0 mt-5 blog-post-container">
+                <div class="col-lg-3 col-md-3">
+                  <div class="media-wrapper">
+                    <img src="../assets/image/blog-img-2.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-lg-9 col-md-9 mt-xs-3 mt-md-0">
+                  <h2 class="text-semibold-22 link-overlay">
+                    <a href="./blog-post.html">
+                      Celebrating the 2020 Material Design A... Celebrating the
+                      2020 Material Design A... Celebrating the 2020 Material
+                      Design A...
+                    </a>
+                  </h2>
+                  <p class="text-regular-16 my-2">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Magna auctor sit leo a semper in vel. Tellus tincidunt
+                    tristique semper odio nunc mauris, aenean dictumst. Viverra
+                    sodales non lorem...
+                  </p>
+                  <div class="d-flex gap-16 mb-5 mt-3">
+                    <p class="tag">Programming</p>
+                    <p class="tag">Apple</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row p-0 mt-5 blog-post-container">
+                <div class="col-lg-3 col-md-3">
+                  <div class="media-wrapper">
+                    <img src="../assets/image/blog-img-2.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-lg-9 col-md-9 mt-xs-3 mt-md-0">
+                  <h2 class="text-semibold-22 link-overlay">
+                    <a href="./blog-post.html">
+                      Celebrating the 2020 Material Design A... Celebrating the
+                      2020 Material Design A... Celebrating the 2020 Material
+                      Design A...
+                    </a>
+                  </h2>
+                  <p class="text-regular-16 my-2">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Magna auctor sit leo a semper in vel. Tellus tincidunt
+                    tristique semper odio nunc mauris, aenean dictumst. Viverra
+                    sodales non lorem...
+                  </p>
+                  <div class="d-flex gap-16 mb-5 mt-3">
+                    <p class="tag">Programming</p>
+                    <p class="tag">Apple</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row p-0 mt-5 blog-post-container">
+                <div class="col-lg-3 col-md-3">
+                  <div class="media-wrapper">
+                    <img src="../assets/image/blog-img-2.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-lg-9 col-md-9 mt-xs-3 mt-md-0">
+                  <h2 class="text-semibold-22 link-overlay">
+                    <a href="./blog-post.html">
+                      Celebrating the 2020 Material Design A... Celebrating the
+                      2020 Material Design A... Celebrating the 2020 Material
+                      Design A...
+                    </a>
+                  </h2>
+                  <p class="text-regular-16 my-2">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Magna auctor sit leo a semper in vel. Tellus tincidunt
+                    tristique semper odio nunc mauris, aenean dictumst. Viverra
+                    sodales non lorem...
+                  </p>
+                  <div class="d-flex gap-16 mb-5 mt-3">
+                    <p class="tag">Programming</p>
+                    <p class="tag">Apple</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row p-0 mt-5 blog-post-container">
+                <div class="col-lg-3 col-md-3">
+                  <div class="media-wrapper">
+                    <img src="../assets/image/blog-img-2.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-lg-9 col-md-9 mt-xs-3 mt-md-0">
+                  <h2 class="text-semibold-22 link-overlay">
+                    <a href="./blog-post.html">
+                      Celebrating the 2020 Material Design A... Celebrating the
+                      2020 Material Design A... Celebrating the 2020 Material
+                      Design A...
+                    </a>
+                  </h2>
+                  <p class="text-regular-16 my-2">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Magna auctor sit leo a semper in vel. Tellus tincidunt
+                    tristique semper odio nunc mauris, aenean dictumst. Viverra
+                    sodales non lorem...
+                  </p>
+                  <div class="d-flex gap-16 mb-5 mt-3">
+                    <p class="tag">Programming</p>
+                    <p class="tag">Apple</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row p-0 mt-5 blog-post-container">
+                <div class="col-lg-3 col-md-3">
+                  <div class="media-wrapper">
+                    <img src="../assets/image/blog-img-2.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-lg-9 col-md-9 mt-xs-3 mt-md-0">
+                  <h2 class="text-semibold-22 link-overlay">
+                    <a href="./blog-post.html">
+                      Celebrating the 2020 Material Design A... Celebrating the
+                      2020 Material Design A... Celebrating the 2020 Material
+                      Design A...
+                    </a>
+                  </h2>
+                  <p class="text-regular-16 my-2">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Magna auctor sit leo a semper in vel. Tellus tincidunt
+                    tristique semper odio nunc mauris, aenean dictumst. Viverra
+                    sodales non lorem...
+                  </p>
+                  <div class="d-flex gap-16 mb-5 mt-3">
+                    <p class="tag">Programming</p>
+                    <p class="tag">Apple</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <aside class="col-lg-4 offset-lg-1 sticker">
+            <div class="filter mb-3 m-0 p-0">
+              <a
+                href="#"
+                class="nav-link text-primary d-flex align-items-center m-0 p-0"
+              >
+                <i class="icon-funnel text-utility-regular-24 mx-1"></i> View
+                All
+              </a>
+            </div>
+            <div class="search d-flex col-lg-12">
+              <input type="text" class="search-input" placeholder="search..." />
+            </div>
+            <div class="filter-tag">
+              <h5 class="utility-text-medium-24 text-primary mt-4 mb-3">
+                Recomended Tags
+              </h5>
+              <div class="d-flex gap-8 flex-wrap">
+                <p class="tag">Programming</p>
+                <p class="tag">Ai</p>
+                <p class="tag">Python</p>
+                <p class="tag">Design</p>
+                <p class="tag">Development</p>
+                <p class="tag">Product</p>
+                <p class="tag">Photoshop</p>
+                <p class="tag">Figma</p>
+                <p class="tag">Youtube</p>
+              </div>
+            </div>
+            <div
+              class="d-flex justify-content-between align-items-center mt-4 mb-3"
+            >
+              <h5 class="text-primary">Recomended posts</h5>
+            </div>
+            <div class="col-lg-12">
+              <div class="row align-items-center mb-3 position-relative">
+                <div class="col-xs-4">
+                  <div class="media-wrapper">
+                    <img src="../assets/image/blog-img-2.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-xs-8">
+                  <h6 class="link-overlay">
+                    <a href="./blog-post.html"
+                      >Lorem ipsum dolor sit amet consectetur adipisicing
+                      elit.</a
+                    >
+                  </h6>
+                </div>
+              </div>
+              <div class="row align-items-center mb-3 position-relative">
+                <div class="col-xs-4">
+                  <div class="media-wrapper">
+                    <img src="../assets/image/blog-img-2.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-xs-8">
+                  <h6 class="link-overlay">
+                    <a href="./blog-post.html"
+                      >Lorem ipsum dolor sit amet consectetur adipisicing
+                      elit.</a
+                    >
+                  </h6>
+                </div>
+              </div>
+              <div class="row align-items-center mb-3 position-relative">
+                <div class="col-xs-4">
+                  <div class="media-wrapper">
+                    <img src="../assets/image/blog-img-2.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-xs-8">
+                  <h6 class="link-overlay">
+                    <a href="./blog-post.html"
+                      >Lorem ipsum dolor sit amet consectetur adipisicing
+                      elit.</a
+                    >
+                  </h6>
+                </div>
+              </div>
+              <div class="row align-items-center mb-3 position-relative">
+                <div class="col-xs-4">
+                  <div class="media-wrapper">
+                    <img src="../assets/image/blog-img-2.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-xs-8">
+                  <h6 class="link-overlay">
+                    <a href="./blog-post.html"
+                      >Lorem ipsum dolor sit amet consectetur adipisicing
+                      elit.</a
+                    >
+                  </h6>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-primary-200">
+      <div class="footer container">
+        <div class="row">
+          <div class="footer-brand col-xl-4 col-lg-16 col-md-16">
+            <div class="navbar-brand media-wrapper">
+              <img src="../assets/image/logo-primary.svg" alt="" />
+            </div>
+            <p class="contact mt-4 text-black-600">
+              Contact : techyinfo@gmail.com, +977 9123456789
+            </p>
+          </div>
+          <div class="footer-links col-xl-3 col-lg-4 col-md-4 mt-xs-5 mt-xl-0">
+            <div class="Explore">
+              <h2 class="text-medium-24 text-primary">Explore</h2>
+              <ul class="navbar-nav mt-24">
+                <li class="nav-item">
+                  <a href="./blog-post.html" class="nav-link text-black-600"
+                    >Featured</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="./blog-post.html" class="nav-link text-black-600"
+                    >Trending</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="./blog-post.html" class="nav-link text-black-600"
+                    >Events</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="./blog-post.html" class="nav-link text-black-600"
+                    >Reviews</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="./blog-post.html" class="nav-link text-black-600"
+                    >Educational</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-links col-xl-3 col-lg-4 col-md-4 mt-xs-5 mt-xl-0">
+            <div class="Company">
+              <h2 class="text-medium-24 text-primary">Company</h2>
+              <ul class="navbar-nav mt-24">
+                <li class="nSav-item">
+                  <a
+                    href="./blog-post.html"
+                    class="nav-link text-black-600 text-black-600"
+                    >License</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    href="./blog-post.html"
+                    class="nav-link text-black-600 text-black-600"
+                    >Terms And Conditions</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    href="./blog-post.html"
+                    class="nav-link text-black-600 text-black-600"
+                    >Privacy policy</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    href="./blog-post.html"
+                    class="nav-link text-black-600 text-black-600"
+                    >FAQ</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-links col-xl-2 col-lg-4 col-md-4 mt-xs-5 mt-xl-0">
+            <div class="discover">
+              <h2 class="text-medium-24 text-primary">Discover</h2>
+              <ul class="navbar-nav mt-24">
+                <li class="nav-item">
+                  <a href="./blog-post.html" class="nav-link text-black-600"
+                    >Contact</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="./blog-post.html" class="nav-link text-black-600"
+                    >Blog</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a href="./blog-post.html" class="nav-link text-black-600"
+                    >Resources</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container copyright mt-5">
+        <div class="row">
+          <p class="text-utility-regular-16 text-black-600 pb-4">
+            © 2022 All rights reserved TheTechyInfo
+          </p>
+          <div class="social">
+            <i class="icon-facebook"></i>
+            <i class="icon-instagram"></i>
+            <i class="icon-twitter"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
