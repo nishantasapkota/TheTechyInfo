@@ -89,6 +89,12 @@
       color: $black-500;
     }
   }
+  .filter-none {
+    display: none;
+    @include media-breakpoint-down(lg) {
+      display: block;
+    }
+  }
 }
 
 .blog-post-detail {
