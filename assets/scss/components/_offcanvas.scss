@@ -29,3 +29,33 @@
     padding-top: 0;
   }
 }
+
+.comment {
+  height: 100vh;
+  overflow-y: scroll;
+  width: 500px;
+  @include media-breakpoint-down(sm) {
+    width: 100%;
+  }
+  .media-wrapper {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  .reply {
+    padding: 0.25rem 0;
+    font-size: 0.75rem;
+    color: $grey-400;
+    text-decoration: none;
+  }
+  &-add {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    border-top: 2px solid $grey-100;
+  }
+  &-post-button {
+    margin-left: auto;
+  }
+}

@@ -50,6 +50,9 @@ $display-font-sizes: (
 .text-utility-regular-14 {
   @include typography(400, 0.875rem, 120%);
 }
+.text-utility-regular-14 {
+  @include typography(400, 0.75rem, 120%);
+}
 
 .text-utility-regular-24 {
   @include typography(400, 2rem, 120%);
@@ -59,6 +62,9 @@ $display-font-sizes: (
 }
 .text-medium-16 {
   @include typography(500, 1rem, 120%);
+}
+.text-medium-18 {
+  @include typography(500, 1.125rem, 120%);
 }
 .text-medium-20 {
   @include typography(500, 1.25rem, 120%);
