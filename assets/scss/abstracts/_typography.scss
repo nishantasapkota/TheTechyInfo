@@ -28,6 +28,19 @@ $display-font-sizes: (
   6: 1rem,
 );
 
+$custom-fontweight: (
+  "bold": 700,
+  "semi-bold": 600,
+  "medium": 500,
+  "regular": 400,
+);
+
+@each $name, $value in $custom-fontweight {
+  .#{$name} {
+    font-weight: $value !important;
+  }
+}
+
 .heading-1 {
   color: $primary;
   font-weight: 700;
@@ -80,20 +93,4 @@ $display-font-sizes: (
 }
 .text-bold-32 {
   @include typography(700, 2rem, 150%);
-}
-
-.semi-bold {
-  font-weight: 600;
-}
-
-.bold {
-  font-weight: 700;
-}
-
-.medium {
-  font-weight: 500;
-}
-
-.regular {
-  font-weight: 400;
 }

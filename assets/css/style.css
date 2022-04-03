@@ -8983,6 +8983,9 @@ textarea.form-control-lg {
     width: 100%;
     height: 100%; }
 
+a:hover {
+  font-weight: 500; }
+
 body {
   font-family: "Inter", sans-serif; }
 
@@ -8993,6 +8996,18 @@ p {
 
 .blog-body-text {
   font-family: "Lora", serif; }
+
+.bold {
+  font-weight: 700 !important; }
+
+.semi-bold {
+  font-weight: 600 !important; }
+
+.medium {
+  font-weight: 500 !important; }
+
+.regular {
+  font-weight: 400 !important; }
 
 .heading-1 {
   color: #5a189a;
@@ -9069,18 +9084,6 @@ p {
   font-weight: 700;
   font-size: 2rem;
   line-height: 150%; }
-
-.semi-bold {
-  font-weight: 600; }
-
-.bold {
-  font-weight: 700; }
-
-.medium {
-  font-weight: 500; }
-
-.regular {
-  font-weight: 400; }
 
 .tag {
   font-size: 0.75rem;
