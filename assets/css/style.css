@@ -8918,6 +8918,16 @@ textarea.form-control-lg {
 .offcanvas-filter {
   border-bottom: 2px solid #f5f5f5; }
 
+.offcanvas-blog {
+  overflow-x: hidden; }
+  .offcanvas-blog .media-wrapper {
+    height: 80px;
+    overflow: hidden;
+    border-radius: 0.25rem; }
+    @media (max-width: 991.98px) {
+      .offcanvas-blog .media-wrapper {
+        height: 80px; } }
+
 .none {
   display: none; }
 
@@ -9234,6 +9244,14 @@ footer {
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   overflow: hidden; }
+
+.blog-post-image .media-wrapper {
+  height: 104px;
+  overflow: hidden;
+  border-radius: 0.5rem; }
+  @media (max-width: 767.98px) {
+    .blog-post-image .media-wrapper {
+      height: 300px; } }
 
 .sticker {
   position: sticky;

@@ -152,3 +152,14 @@
     }
   }
 }
+
+.blog-post-image {
+  .media-wrapper {
+    height: 104px;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    @include media-breakpoint-down(md) {
+      height: 300px;
+    }
+  }
+}

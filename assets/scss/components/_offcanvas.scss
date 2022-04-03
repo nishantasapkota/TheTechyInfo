@@ -63,3 +63,15 @@
 .offcanvas-filter {
   border-bottom: 2px solid $grey-100;
 }
+
+.offcanvas-blog {
+  overflow-x: hidden;
+  .media-wrapper {
+    height: 80px;
+    overflow: hidden;
+    border-radius: 0.25rem;
+    @include media-breakpoint-down(lg) {
+      height: 80px;
+    }
+  }
+}
