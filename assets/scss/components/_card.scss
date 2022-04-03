@@ -201,7 +201,10 @@
     }
   }
   h2 {
-    @include clamp(1);
+    @include clamp(2);
+    @include media-breakpoint-down(sm) {
+      @include clamp(3);
+    }
   }
   p {
     @include clamp(3);

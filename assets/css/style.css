@@ -9165,7 +9165,7 @@ footer {
 
 .sponsored h2, .sponsored .h2 {
   display: -webkit-box;
-  -webkit-line-clamp: 1;
+  -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden; }
 
@@ -9229,6 +9229,12 @@ footer {
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   overflow: hidden; }
+  @media (max-width: 767.98px) {
+    .featured h2, .featured .h2 {
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden; } }
 
 .sticker h6, .sticker .h6 {
   display: -webkit-box;
@@ -9244,9 +9250,15 @@ footer {
 
 .most-recent-posts div h4, .most-recent-posts div .h4 {
   display: -webkit-box;
-  -webkit-line-clamp: 1;
+  -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden; }
+  @media (max-width: 575.98px) {
+    .most-recent-posts div h4, .most-recent-posts div .h4 {
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden; } }
 
 .blog-post-image .media-wrapper {
   height: 104px;
@@ -9436,9 +9448,15 @@ footer {
       object-fit: cover; }
   .blog-post-container h2, .blog-post-container .h2 {
     display: -webkit-box;
-    -webkit-line-clamp: 1;
+    -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden; }
+    @media (max-width: 575.98px) {
+      .blog-post-container h2, .blog-post-container .h2 {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden; } }
   .blog-post-container p {
     display: -webkit-box;
     -webkit-line-clamp: 3;
